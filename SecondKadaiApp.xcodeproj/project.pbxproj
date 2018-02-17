@@ -12,6 +12,7 @@
 		FCAA3FFC2036E220004AEE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAA3FFA2036E220004AEE8D /* Main.storyboard */; };
 		FCAA3FFE2036E220004AEE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAA3FFD2036E220004AEE8D /* Assets.xcassets */; };
 		FCAA40012036E220004AEE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAA3FFF2036E220004AEE8D /* LaunchScreen.storyboard */; };
+		FCAA40092036E635004AEE8D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA40082036E635004AEE8D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FCAA3FFD2036E220004AEE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCAA40002036E220004AEE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCAA40022036E220004AEE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAA40082036E635004AEE8D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FCAA3FF52036E220004AEE8D /* SecondKadaiApp */ = {
 			isa = PBXGroup;
 			children = (
+				FCAA40082036E635004AEE8D /* ResultViewController.swift */,
 				FCAA3FF62036E220004AEE8D /* AppDelegate.swift */,
 				FCAA3FF82036E220004AEE8D /* ViewController.swift */,
 				FCAA3FFA2036E220004AEE8D /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				FCAA3FF92036E220004AEE8D /* ViewController.swift in Sources */,
 				FCAA3FF72036E220004AEE8D /* AppDelegate.swift in Sources */,
+				FCAA40092036E635004AEE8D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
