@@ -11,7 +11,7 @@ import UIKit
 class ResultViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
-    var name: String
+    var name: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()

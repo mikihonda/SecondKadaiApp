@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
         // 遷移先のResultViewControllerで宣言しているnameに代入して渡す
-        resultViewController.name = textField.text
+        resultViewController.name = textField.text!
         
     }
     
